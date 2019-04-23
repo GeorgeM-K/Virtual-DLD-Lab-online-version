@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 8f26d7716ee05473a9038fc41b1c6334
+  - enabled: 1
+    path: Assets/Scenes/Lab3.unity
+    guid: 693759d92678209419d6222006b64999
+  - enabled: 1
+    path: Assets/Scenes/StudentSubsystem.unity
+    guid: 13ba1a9092397104c82099cc8ca17101
+  - enabled: 1
+    path: Assets/Scenes/Quiz1.unity
+    guid: 21c1f6eceeeee4e558c842dcc5f74322
+  - enabled: 1
+    path: Assets/Scenes/Prelab3.unity
+    guid: 830524a56e9cdcb4293a8edc9284c188
+  - enabled: 1
+    path: Assets/Scenes/Quiz2.unity
+    guid: 4d3386922a095414580ca92ac0b44ece
+  - enabled: 1
+    path: Assets/Scenes/Quiz4.unity
+    guid: acc9ff67b732f481bbb1c1db26da67ce
+  - enabled: 1
+    path: Assets/Scenes/prelab2Kmap.unity
+    guid: 84f0f3fe521eb49fbb65d676c0171c04
+  - enabled: 1
+    path: Assets/Scenes/Lab 4.unity
+    guid: 243f225ebe755412b878da19937ac368
+  - enabled: 1
+    path: Assets/Scenes/Postlab 4.unity
+    guid: 2b3cb5c9eb56c9c4eae82d3ac7084158
+  - enabled: 1
+    path: Assets/Scenes/QuizMenu.unity
+    guid: b1ba145e08ac8e446a3d5ef0f836f5f5
+  - enabled: 1
+    path: Assets/Scenes/Prelab1.unity
+    guid: 0b3e79ed85d32b3439774bbd3cc1dad4
+  - enabled: 1
+    path: Assets/Scenes/intermediary.unity
+    guid: cdb7f685b50a8457e81a9eda342907da
+  - enabled: 1
+    path: Assets/Scenes/SandboxLab.unity
+    guid: 52b7a7a5232994a2295b73fb126d9486
+  - enabled: 1
+    path: Assets/Scenes/Quiz3.unity
+    guid: 5b125965e002446ba9da9ed2fb6501f9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/addStudenttoSection.unity
+    guid: ac736c436ae7743f0bcbeb67d6dc4e24
+  - enabled: 1
+    path: Assets/Scenes/Lab1.unity
+    guid: ba2302c4eef73484384999238818fcdc
+  - enabled: 1
+    path: Assets/Scenes/Prelab4.unity
+    guid: cc3afe09a218295488ca0df8737bca91
+  - enabled: 1
+    path: Assets/Scenes/Postlab1.unity
+    guid: 63c817ef7570eb04d93718f34320394c
+  - enabled: 1
+    path: Assets/Scenes/Lab1Tester.unity
+    guid: 93276af5535cf5147a0ad38bdaac19bc
+  - enabled: 1
+    path: Assets/Scenes/prelab3Kmap.unity
+    guid: f6e51a90065944f7984cf979206d2119
+  - enabled: 1
+    path: Assets/Scenes/newuser_student.unity
+    guid: 3a6cf399bd1d24b7bb6d2bb3cd975b0f
+  - enabled: 1
+    path: Assets/Scenes/Camera.unity
+    guid: ce9c801200915c640829e503dbae3f9e
+  - enabled: 1
+    path: Assets/Scenes/FAQAdmin.unity
+    guid: 31f4f87c0fff53849b36ea05b0dcafb2
+  - enabled: 1
+    path: Assets/Scenes/newuser_admin.unity
+    guid: d194f6c40ebd84d3a827ee71ed466ffc
+  - enabled: 1
+    path: Assets/Scenes/AdminSubsystem.unity
+    guid: b1621ab1459894d47bcd7425aca78cf7
+  - enabled: 1
+    path: Assets/Scenes/LabCreator.unity
+    guid: a29d267b4346dc646ba6f941f7089ac1
+  - enabled: 1
+    path: Assets/Scenes/LabTestingScene.unity
+    guid: 435000f6255968240b79e0b5fbdec940
+  - enabled: 1
+    path: Assets/Scenes/FAQStudent.unity
+    guid: 2eef143a58ea02049b4c4bbfc3431fa6
+  - enabled: 1
+    path: Assets/Scenes/Prelab2.unity
+    guid: 42ae8eec5ecf14f44b5c5ab3515cf3b0
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 3a3376da37cf2b246b593a62b64f04db
+  - enabled: 1
+    path: Assets/Scenes/Postlab2.unity
+    guid: 507d5c6a90fabe648b48ce10eea01a11
+  - enabled: 1
+    path: Assets/Scenes/Lab2.unity
+    guid: 99439b72af11d5941b9ca970fe793255
+  - enabled: 1
+    path: Assets/Scenes/Leaderboards.unity
+    guid: 1b4ce7484af20264ea5188dc783d3bdb
+  - enabled: 1
+    path: Assets/Scenes/ClassPage.unity
+    guid: a2790a6cd2df048bd81df66d53f1d0ff
