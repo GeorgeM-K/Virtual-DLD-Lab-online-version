@@ -38,7 +38,7 @@ public class ListUpdate : MonoBehaviour {
 	
 	IEnumerator listUpdate1(){
 
-        WWW www = new WWW("http://localhost/sqlconnect/listUpdate.php");
+        WWW www = new WWW("https://dldvirtuallab.000webhostapp.com/listUpdate.php");
         yield return www;
 		if(www.text != "10" && www.text != ""){
 		string itemsDataString = www.text;

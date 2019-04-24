@@ -57,7 +57,7 @@ public class loadNewGraph : MonoBehaviour {
 		else{
 		form.AddField("Lab", dbManager.labgradeRequired);
 		}
-        WWW www = new WWW("http://localhost/sqlconnect/barChart.php", form);
+        WWW www = new WWW("https://dldvirtuallab.000webhostapp.com/barChart.php", form);
         yield return www;
 		//print(www.text);
 		if(www.text != "10"){

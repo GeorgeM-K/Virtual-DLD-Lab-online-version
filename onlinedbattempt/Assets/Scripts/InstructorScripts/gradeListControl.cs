@@ -34,7 +34,7 @@ public class gradeListControl : MonoBehaviour
 		WWWForm form = new WWWForm();
         print(dbManager.section);
 		form.AddField("class", dbManager.section);
-        WWW www = new WWW("http://localhost/sqlconnect/gradetableupdate.php", form);
+        WWW www = new WWW("https://dldvirtuallab.000webhostapp.com/gradetableupdate.php", form);
         yield return www;
 		if(www.text != "10"){
 		string itemsDataString = www.text;

@@ -57,7 +57,7 @@ public class AddSectionToList : MonoBehaviour
          WWWForm form = new WWWForm();
         form.AddField("sectionName", addnameInput.text);
         
-        WWW www = new WWW("http://localhost/sqlconnect/sectioncreate.php", form);
+        WWW www = new WWW("https://dldvirtuallab.000webhostapp.com/sectioncreate.php", form);
         yield return www;
 
         if(www.text == "0"){

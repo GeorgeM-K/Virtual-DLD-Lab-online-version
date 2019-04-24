@@ -108,7 +108,7 @@ public class assignListControl : MonoBehaviour
 		print(title.text);
 		form.AddField("class", dbManager.section);
 		form.AddField("Lab", title.text);
-        WWW www = new WWW("http://localhost/sqlconnect/AssignmentUpdate.php", form);
+        WWW www = new WWW("https://dldvirtuallab.000webhostapp.com/AssignmentUpdate.php", form);
         yield return www;
 		if(www.text != "10"){
 		string itemsDataString = www.text;

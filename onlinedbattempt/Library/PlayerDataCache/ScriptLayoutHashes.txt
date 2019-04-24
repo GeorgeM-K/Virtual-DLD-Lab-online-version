@@ -3,18 +3,26 @@ PlayerPath?
 /Users/GMK/Desktop/code/testb4demo.app
 SceneListBegin?
 Assets/Scenes/Login.unity
+Assets/Scenes/Lab3.unity
 Assets/Scenes/StudentSubsystem.unity
+Assets/Scenes/Quiz1.unity
 Assets/Scenes/Prelab3.unity
+Assets/Scenes/Quiz2.unity
+Assets/Scenes/Quiz4.unity
 Assets/Scenes/prelab2Kmap.unity
+Assets/Scenes/Lab 4.unity
+Assets/Scenes/Postlab 4.unity
+Assets/Scenes/QuizMenu.unity
 Assets/Scenes/Prelab1.unity
 Assets/Scenes/intermediary.unity
 Assets/Scenes/SandboxLab.unity
-Assets/Scenes/Lab 4.unity
+Assets/Scenes/Quiz3.unity
 Assets/Scenes/addStudenttoSection.unity
 Assets/Scenes/Lab1.unity
 Assets/Scenes/Prelab4.unity
 Assets/Scenes/Postlab1.unity
 Assets/Scenes/Lab1Tester.unity
+Assets/Scenes/prelab3Kmap.unity
 Assets/Scenes/newuser_student.unity
 Assets/Scenes/Camera.unity
 Assets/Scenes/FAQAdmin.unity
@@ -30,6 +38,7 @@ Assets/Scenes/Lab2.unity
 Assets/Scenes/Leaderboards.unity
 Assets/Scenes/ClassPage.unity
 SceneListEnd?
+7f3268d653882037455599c4d2ce812a Assembly-CSharp.dll:.prelab3Kmap
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenuButton
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.INVGate
 d5007fec7c2c17e1a038daab512bb75c Assembly-CSharp.dll:.assignListControl
@@ -51,7 +60,8 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PowerSupplyScript
 7119f5443c3f334d4f03e6140d403753 Assembly-CSharp.dll:.AboutButton
 16a95943d43f7d941e5dbd351ea88fcc Assembly-CSharp.dll:.TrashBehavior
-48befb0b7a78abb21eb3cc569c0f7a6b Assembly-CSharp.dll:.QuestionManagerStudent
+cec20d376e7911e8f0bef817ca645e26 Assembly-CSharp.dll:.Timer2
+8cc7b59a6c905dea2afe4623fc24dadb Assembly-CSharp.dll:.QuestionManagerStudent
 9c3fc8ade627e85e12b2999b9bd8b58b Assembly-CSharp.dll:.GameManager
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -120,6 +130,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 848996f8d016995de23330fc06a26a69 Assembly-CSharp.dll:.statsCalculator
 82a9cdd965688260c8823ade973bea3f Assembly-CSharp.dll:.OpenTAList
+cec20d376e7911e8f0bef817ca645e26 Assembly-CSharp.dll:.Timer
 11b6bb80d4152dbd9f2546257923f823 Assembly-CSharp.dll:.Login
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScreenshotHandler
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -153,6 +164,9 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.classMenu
 50a9c12605409cfc0afc08d4ffce53d2 Assembly-CSharp.dll:.Equipment
+a0d9a8af9eeaddf0d75f76329ec3423b Assembly-CSharp.dll:.Quiz3
+a0d9a8af9eeaddf0d75f76329ec3423b Assembly-CSharp.dll:.Quiz1
+a0d9a8af9eeaddf0d75f76329ec3423b Assembly-CSharp.dll:.Quiz4
 d0d202dc2079f3101e2f15feb6327616 Assembly-CSharp.dll:.LabOneGrader
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -162,7 +176,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-dac69b25a022b80488167d4c9925e875 Assembly-CSharp.dll:.LabFourGrader
+589c877da39c6d6529fe04546264970c Assembly-CSharp.dll:.LabFourGrader
 d05c2c8a68e08b41cda73a0f632a51f4 Assembly-CSharp.dll:.bar
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Emailinstructor
 074b74df340e763720a5342eb6c5d981 Assembly-CSharp.dll:.DataInsert
@@ -206,7 +220,7 @@ dac69b25a022b80488167d4c9925e875 Assembly-CSharp.dll:.LabTwoGrader
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LogicManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CheckerTagScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NewBehaviourScript
-96fb638ca9f5d7fb19aee9b6f7fc01f7 Assembly-CSharp.dll:.StudentSubsystem
+8dbb702068dc5fdd5925e5e55a851fd3 Assembly-CSharp.dll:.StudentSubsystem
 5e89c6e39e6e03d85d613a126f6c356c Assembly-CSharp.dll:.newuser_admin
 d34b97512089d5d5f8e7dc394d04afb5 Assembly-CSharp.dll:.ChatTest
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -222,6 +236,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Quiz2
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.XORGate
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Wire
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
